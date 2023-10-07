@@ -1,0 +1,58 @@
+.startScreen {
+	@include centeredContainer(100%, 900px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 30px;
+	background: $startScreenBg;
+	background-size: cover;
+
+	header {
+		@include centeredContainer(1200px, 60px);
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.logo {
+			display: flex;
+			height: 100%;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		nav {
+			width: 445px;
+			display: flex;
+			justify-content: space-between;
+
+			a {
+				cursor: pointer;
+				padding-bottom: 4px;
+
+				&.active {
+					color: #fff;
+					border-bottom: 3px solid #F1CDB3;
+				}
+			}
+		}
+	}
+
+	.startScreenContent {
+		@include centeredContainer(1200px, 728px);
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			margin-top: 160px;
+			width: 460px;
+			height: 322px;
+		}
+	}
+}

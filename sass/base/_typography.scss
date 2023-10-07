@@ -1,0 +1,32 @@
+.logoSubtitle {
+	font-family: $mainFont;
+	font-size: 12px;
+	color: $mainColor;
+	letter-spacing: 1.92px;
+	margin-left: 1px;
+}
+
+.logoTitle {
+	font-family: $headFont;
+	font-size: $logoSize;
+	color: $primaryColor;
+	letter-spacing: 1.92px;
+}
+
+nav a {
+	font-family: $mainFont;
+	font-size: 15px;
+	color: $secondaryColor;
+}
+
+h1 {
+	font-family: $headFont;
+	font-size: 44px;
+	color: $mainColor;
+}
+
+.content {
+	font-family: $mainFont;
+	font-size: $mainSize;
+	color: $secondaryColor;
+}
