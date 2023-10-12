@@ -110,11 +110,29 @@ h1 {
   font-family: "Georgia", serif;
   font-size: 44px;
   color: #fff;
+  line-height: 130%;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+h3 {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-align: center;
 }
 
 .content {
   font-family: "Arial", sans-serif;
   font-size: 15px;
+  line-height: 160%;
+}
+
+.startScreen .content {
   color: #CDCDCD;
 }
 
@@ -176,11 +194,90 @@ h1 {
   height: 322px;
 }
 
-.filledButton {
-  display: inline-block;
+.about {
+  width: 100%;
+  height: 588px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .aboutContent {
+  width: 850px;
+  height: 408px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.about .aboutContent .content {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pets {
+  width: 100%;
+  height: 877px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  background: #F6F6F6;
+  padding-top: 80px;
+}
+.pets h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.pets .content {
+  width: 1200px;
+  height: 435px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.pets .content button {
+  align-self: center;
+}
+.pets .content .center {
+  margin-left: 37px;
+  margin-right: 37px;
+}
+.pets .filledButton {
+  align-self: center;
+}
+
+button {
   font-family: "Georgia", serif;
   font-size: 17px;
   color: #292929;
+  padding: 15px 45px;
+  border-radius: 100px;
+  align-self: flex-start;
+  border: 2px solid #F1CDB3;
+}
+
+.filledButton {
   background-color: #F1CDB3;
-  width: auto;
+}
+
+.arrowButton {
+  padding: 21px 17px;
+  height: 52px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: 435px;
+  background: #FAFAFA;
+}
+.card button {
+  align-self: center;
 }

@@ -1,0 +1,16 @@
+.about {
+	@include centeredContainer(100%, 588px);
+	.aboutContent {
+		@include centeredContainer(850px, 408px);
+		margin-top: 80px;
+
+		display: flex;
+		justify-content: space-between;
+		.content {
+			width: 430px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+	}
+}

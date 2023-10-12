@@ -1,0 +1,37 @@
+.pets {
+	@include centeredContainer(100%, 877px);
+
+	display: flex;
+	flex-direction: column;
+
+	background: #F6F6F6;
+	padding-top: 80px;
+
+	h2 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	.content {
+		@include centeredContainer(1200px, 435px);
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		button {
+			align-self: center;
+		}
+
+		.center {
+			margin-left: 37px;
+			margin-right: 37px;
+		}
+
+		margin-bottom: 60px;
+	}
+	
+	.filledButton {
+		align-self: center;
+	}
+}

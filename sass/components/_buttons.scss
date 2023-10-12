@@ -1,8 +1,18 @@
-.filledButton {
-	display: inline-block;
+button {
 	font-family: $headFont;
 	font-size: 17px;
 	color: #292929;
+	padding: 15px 45px;
+	border-radius: 100px;
+	align-self: flex-start;
+	border: 2px solid $primaryColor;
+}
+
+.filledButton {
 	background-color: $primaryColor;
-	width: auto;
+}
+
+.arrowButton {
+	padding: 21px 17px;
+	height: 52px;
 }
